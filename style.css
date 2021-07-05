@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding:0;
+}
+
+.container{
+    background-color:#cacaca;
+    padding:2px;
+    display:inline-flex; /*container englobe uniquement les box*/
+}
+
+.box{
+    border-style:dotted;
+    margin:0;
+    margin-left:-1px;
+    padding:18px;
+    
+}
