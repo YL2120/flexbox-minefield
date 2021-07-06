@@ -68,7 +68,7 @@ p{
     border-left: 0;
 }
 
-/* GREY */
+/* grey */
 
 .grey{
     border-style: outset;
@@ -78,7 +78,18 @@ p{
     border-left: solid white;
 }
 
-/* image */
+/* HIDDEN BOXES */
+
+.hidden{
+    opacity: 0;
+}
+
+.hidden:hover{
+    opacity: 1;
+}
+
+
+/* IMAGE */
 
 i{
     margin-top: 5px;
