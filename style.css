@@ -29,6 +29,18 @@ body{
     text-align: center;
 }
 
+
+
+/* Paragraphes */
+
+p{
+   margin:0;
+   font-size: 40px;
+}
+
+
+/* BORDER */
+
 /* Border-right */
 
 .last{
@@ -39,6 +51,22 @@ body{
 
 .bottom{
     border-bottom: dotted ;
+}
+
+/* Border-left */
+
+.left{
+    border-left: 0;
+}
+
+/* GREY */
+
+.grey{
+    border-style: outset;
+    border-bottom: solid;
+    border-right: solid;
+    border-top: solid white;
+    border-left: solid white;
 }
 
 /* image */
@@ -61,3 +89,4 @@ i{
 .red{
    color: #ff0000;
 }
+
