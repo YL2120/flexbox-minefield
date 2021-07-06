@@ -1,18 +1,63 @@
+/* GENERAL */
+
+* {
+    box-sizing: border-box;
+}
+
 body{
     margin: 0;
     padding:0;
 }
 
-.container{
+/* FLEX */
+
+.container {
     background-color:#cacaca;
-    padding:2px;
     display:inline-flex; /*container englobe uniquement les box*/
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    
 }
 
 .box{
     border-style:dotted;
-    margin:0;
-    margin-left:-1px;
-    padding:18px;
-    
+    border-right: 0;
+    border-bottom: 0;
+    width: 50px;
+    height:50px;
+    text-align: center;
+}
+
+/* Border-right */
+
+.last{
+    border-right: dotted;
+}
+
+/* Border-bottom */
+
+.bottom{
+    border-bottom: dotted ;
+}
+
+/* image */
+
+i{
+    margin-top: 5px;
+}
+
+
+/* Colors */
+
+.blue{
+    color:#5000ff;
+}
+
+.green{
+    color:#009d0d;
+}
+
+.red{
+   color: #ff0000;
 }
