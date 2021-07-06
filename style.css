@@ -9,6 +9,14 @@ body{
     padding:0;
 }
 
+main{
+    margin:auto;
+    margin-top: 50px;
+    width: 410px;
+    height: 410px;
+    border-style:outset;
+}
+
 /* FLEX */
 
 .container {
@@ -17,6 +25,7 @@ body{
     flex-wrap: wrap;
     width: 400px;
     height: 400px;
+    
     
 }
 
